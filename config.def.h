@@ -7,8 +7,8 @@ static int min_width = 500;                    /* minimum width when centered */
 static int fuzzy = 1;                      /* -F  option; if 0, dmenu doesn't use fuzzy matching     */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"Source Code Pro:size=11",
-    "JoyPixels:size=12"
+	"Source Code Pro:size=10",
+    "JoyPixels:size=10"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
