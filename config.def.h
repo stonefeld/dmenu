@@ -9,7 +9,9 @@ static const char *prompt = NULL; /* -p  option; prompt to the left of input fie
 
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"Cascadia Code:size=11"
+	"Cascadia Code:size=11",
+	"Material Design Icons-Regular:pixelsize=14:antialias=true:autohint=true",
+	"JoyPixels:pixelsize=14:antialias=true:autohint=true",
 };
 
 static const char *colors[SchemeLast][2] = {
