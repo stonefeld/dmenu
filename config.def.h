@@ -14,10 +14,11 @@ static const char *fonts[] = {
 	"JoyPixels:pixelsize=14:antialias=true:autohint=true",
 };
 
+#include "themes/nord.h"
 static const char *colors[SchemeLast][2] = {
-	/*                fg         bg       */
-	[SchemeNorm] = { "#d8dee9", "#292d3e" },
-	[SchemeSel]  = { "#2e3440", "#828dd1" },
+	/*                fg      bg       */
+	[SchemeNorm] = { norm_fg, norm_bg },
+	[SchemeSel]  = { sel_fg,  sel_bg  },
 	[SchemeOut]  = { "#000000", "#00ffff" },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
