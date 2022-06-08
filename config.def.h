@@ -9,12 +9,12 @@ static const char *prompt = NULL; /* -p  option; prompt to the left of input fie
 
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"Cascadia Code:size=11",
-	"Material Design Icons-Regular:pixelsize=14:antialias=true:autohint=true",
+	"Source Code Pro Medium:pixelsize=16:antialias=true:autohint=true",
+	"Material Design Icons-Regular:pixelsize=16:antialias=true:autohint=true",
 	"JoyPixels:pixelsize=14:antialias=true:autohint=true",
 };
 
-#include "themes/nord.h"
+#include "themes/catppuccin.h"
 static const char *colors[SchemeLast][2] = {
 	/*                fg      bg       */
 	[SchemeNorm] = { norm_fg, norm_bg },
